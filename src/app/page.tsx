@@ -168,7 +168,7 @@ export default function LandingPage() {
           value: "4.9/5",          label: "Customer rating"},
       ]}
       title="Customer Love"
-      description="What our family members say about us."
+      description="Trusted by local families for over 50 years"
     />
   </div>
 
