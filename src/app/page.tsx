@@ -35,7 +35,7 @@ export default function LandingPage() {
         {
           name: "Story",          id: "#about"},
         {
-          name: "Reviews",          id: "#testimonials"},
+        name: "Reviews",          id: "#testimonials"},
         {
           name: "Contact",          id: "#contact"},
       ]}
@@ -149,13 +149,13 @@ export default function LandingPage() {
           id: "t2",          name: "Rachna Srivastava",          date: "Feb 2024",          title: "My Family's Favorite",          quote: "We've been loyal customers for years, and New Gunjan never disappoints. Their quality and taste are consistently excellent. Highly recommended!",          tag: "Loyal Customer",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-elegant-senior-woman_329181-2294.jpg",          avatarAlt: "Rachna Srivastava"
         },
         {
-          id: "t3",          name: "Akash Singh",          date: "Mar 2024",          title: "Best Indian Sweets in Town",          quote: "As a local foodie, I can confidently say New Gunjan has the best Indian sweets. Every item is fresh and bursting with traditional flavors. A real gem!",          tag: "Local Foodie",          avatarSrc: "http://img.b2bpic.net/free-photo/cute-smiling-curly-woman-lean-wall_176420-16738.jpg",          avatarAlt: "Akash Singh"
+          id: "t3",          name: "Akash Singh",          date: "Mar 2024",          title: "Best Indian Sweets in Town",          quote: "As a local foodie, I can confidently say New Gunjan has the best Indian sweets. Every item is fresh and bursting with traditional flavors. A real gem!",          tag: "Local Foodie",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-man-smiling-camera_23-2148753232.jpg",          avatarAlt: "Akash Singh"
         },
         {
-          id: "t4",          name: "Dr Amit Kumar",          date: "Apr 2024",          title: "Exceptional Service and Taste",          quote: "Being a regular, I appreciate the consistent quality and friendly service. New Gunjan has become a staple for all our family gatherings. Simply fantastic!",          tag: "Regular Patron",          avatarSrc: "http://img.b2bpic.net/free-photo/airbnb-host-welcoming-guests_23-2149872021.jpg",          avatarAlt: "Dr Amit Kumar"
+          id: "t4",          name: "Dr Amit Kumar",          date: "Apr 2024",          title: "Exceptional Service and Taste",          quote: "Being a regular, I appreciate the consistent quality and friendly service. New Gunjan has become a staple for all our family gatherings. Simply fantastic!",          tag: "Regular Patron",          avatarSrc: "http://img.b2bpic.net/free-photo/young-man-with-beard-wearing-blue-shirt-glasses-isolated-grey-wall_231208-1647.jpg",          avatarAlt: "Dr Amit Kumar"
         },
         {
-          id: "t5",          name: "Rahul Verma",          date: "May 2024",          title: "Authenticity You Can Taste",          quote: "If you're looking for truly authentic Indian food and sweets, look no further. New Gunjan captures the essence of traditional recipes perfectly. I'm a huge fan!",          tag: "Food Lover",          avatarSrc: "http://img.b2bpic.net/free-photo/vertical-photo-beautiful-lady-sitting-restaurant-smiling-camera_114579-92383.jpg",          avatarAlt: "Rahul Verma"
+          id: "t5",          name: "Rahul Verma",          date: "May 2024",          title: "Authenticity You Can Taste",          quote: "If you're looking for truly authentic Indian food and sweets, look no further. New Gunjan captures the essence of traditional recipes perfectly. I'm a huge fan!",          tag: "Food Lover",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-happy-man_23-2148419618.jpg",          avatarAlt: "Rahul Verma"
         }
       ]}
       title="Customer Love"
