@@ -10,7 +10,7 @@ import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSp
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
-import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
+import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 
 export default function LandingPage() {
   return (
@@ -138,34 +138,24 @@ export default function LandingPage() {
   </div>
 
   <div id="testimonials" data-section="testimonials">
-      <TestimonialCardSixteen
-      animationType="slide-up"
-      textboxLayout="default"
+      <TestimonialCardFive
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "t1",          name: "Mariyam Akhtar",          role: "Patron",          company: "Local Resident",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-carrying-shopping-bags_23-2148660763.jpg"},
+          id: "t1",          name: "Mariyam Akhtar",          date: "Jan 2024",          title: "A Taste of Home",          quote: "New Gunjan always brings back fond memories with their authentic flavors. The sweets are simply divine, and the samosas are a must-try!",          tag: "Local Resident",          avatarSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-carrying-shopping-bags_23-2148660763.jpg",          avatarAlt: "Mariyam Akhtar"
+        },
         {
-          id: "t2",          name: "Rachna Srivastava",          role: "Patron",          company: "Loyal Customer",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-elegant-senior-woman_329181-2294.jpg"},
+          id: "t2",          name: "Rachna Srivastava",          date: "Feb 2024",          title: "My Family's Favorite",          quote: "We've been loyal customers for years, and New Gunjan never disappoints. Their quality and taste are consistently excellent. Highly recommended!",          tag: "Loyal Customer",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-elegant-senior-woman_329181-2294.jpg",          avatarAlt: "Rachna Srivastava"
+        },
         {
-          id: "t3",          name: "Akash Singh",          role: "Patron",          company: "Local Foodie",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/cute-smiling-curly-woman-lean-wall_176420-16738.jpg"},
+          id: "t3",          name: "Akash Singh",          date: "Mar 2024",          title: "Best Indian Sweets in Town",          quote: "As a local foodie, I can confidently say New Gunjan has the best Indian sweets. Every item is fresh and bursting with traditional flavors. A real gem!",          tag: "Local Foodie",          avatarSrc: "http://img.b2bpic.net/free-photo/cute-smiling-curly-woman-lean-wall_176420-16738.jpg",          avatarAlt: "Akash Singh"
+        },
         {
-          id: "t4",          name: "Dr Amit Kumar",          role: "Patron",          company: "Regular",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/airbnb-host-welcoming-guests_23-2149872021.jpg"},
+          id: "t4",          name: "Dr Amit Kumar",          date: "Apr 2024",          title: "Exceptional Service and Taste",          quote: "Being a regular, I appreciate the consistent quality and friendly service. New Gunjan has become a staple for all our family gatherings. Simply fantastic!",          tag: "Regular Patron",          avatarSrc: "http://img.b2bpic.net/free-photo/airbnb-host-welcoming-guests_23-2149872021.jpg",          avatarAlt: "Dr Amit Kumar"
+        },
         {
-          id: "t5",          name: "Rahul Verma",          role: "Patron",          company: "Food Lover",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/vertical-photo-beautiful-lady-sitting-restaurant-smiling-camera_114579-92383.jpg"},
-      ]}
-      kpiItems={[
-        {
-          value: "50+",          label: "Years served"},
-        {
-          value: "10K+",          label: "Happy families"},
-        {
-          value: "4.9/5",          label: "Customer rating"},
+          id: "t5",          name: "Rahul Verma",          date: "May 2024",          title: "Authenticity You Can Taste",          quote: "If you're looking for truly authentic Indian food and sweets, look no further. New Gunjan captures the essence of traditional recipes perfectly. I'm a huge fan!",          tag: "Food Lover",          avatarSrc: "http://img.b2bpic.net/free-photo/vertical-photo-beautiful-lady-sitting-restaurant-smiling-camera_114579-92383.jpg",          avatarAlt: "Rahul Verma"
+        }
       ]}
       title="Customer Love"
       description="Trusted by local families for over 50 years"
