@@ -140,6 +140,7 @@ export default function LandingPage() {
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardFive
       useInvertedBackground={true}
+      textboxLayout="default"
       testimonials={[
         {
           id: "t1",          name: "Mariyam Akhtar",          date: "Jan 2024",          title: "A Taste of Home",          quote: "New Gunjan always brings back fond memories with their authentic flavors. The sweets are simply divine, and the samosas are a must-try!",          tag: "Local Resident",          avatarSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-carrying-shopping-bags_23-2148660763.jpg",          avatarAlt: "Mariyam Akhtar"
