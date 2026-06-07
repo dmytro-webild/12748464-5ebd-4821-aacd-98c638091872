@@ -158,8 +158,9 @@ export default function LandingPage() {
           id: "t5",          name: "Rahul Verma",          date: "May 2024",          title: "Authenticity You Can Taste",          quote: "If you're looking for truly authentic Indian food and sweets, look no further. New Gunjan captures the essence of traditional recipes perfectly. I'm a huge fan!",          tag: "Food Lover",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-happy-man_23-2148419618.jpg",          avatarAlt: "Rahul Verma"
         }
       ]}
-      title="Customer Love"
-      description="Trusted by local families for over 50 years"
+      title="Voices of Our Valued Patrons"
+      description="Hear firsthand why local families choose New Gunjan for authentic flavors and trusted traditions."
+      tag="Customer Testimonials"
     />
   </div>
 
